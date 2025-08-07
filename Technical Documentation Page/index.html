@@ -1,0 +1,72 @@
+<style>
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+</style>
+
+<body>
+  <nav id="navbar">
+    <header>JavaScript Docs</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Variables">Variables</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Loops">Loops</a>
+    <a class="nav-link" href="#Objects">Objects</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>JavaScript is a versatile scripting language used on the web.</p>
+      <p>It allows developers to make interactive web applications.</p>
+      <p>JavaScript can be run in the browser or on the server using Node.js.</p>
+      <code>console.log("Hello, world!");</code>
+      <p>You can write JavaScript directly in an HTML file.</p>
+      <p>It is one of the core technologies of the web.</p>
+      <ul>
+        <li>Client-side scripting</li>
+        <li>Lightweight</li>
+        <li>Dynamic</li>
+        <li>Interpreted</li>
+        <li>First-class functions</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>Variables store data values in JavaScript.</p>
+      <p>You can use `var`, `let`, or `const` to declare them.</p>
+      <code>let name = "Alice";</code>
+      <p>`let` and `const` were introduced in ES6.</p>
+      <p>`const` is used for values that don’t change.</p>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions are blocks of reusable code.</p>
+      <code>function greet(name) { return "Hello " + name; }</code>
+      <p>Functions can take parameters and return values.</p>
+      <p>They help reduce repetition in code.</p>
+      <code>const add = (a, b) => a + b;</code>
+    </section>
+
+    <section class="main-section" id="Loops">
+      <header>Loops</header>
+      <p>Loops are used to repeat code a number of times.</p>
+      <code>for(let i = 0; i < 5; i++) { console.log(i); }</code>
+      <p>Common loops include `for`, `while`, and `do...while`.</p>
+      <p>Use loops to iterate over arrays and objects.</p>
+      <code>let i = 0; while(i < 3) { i++; }</code>
+    </section>
+
+    <section class="main-section" id="Objects">
+      <header>Objects</header>
+      <p>Objects are collections of key-value pairs.</p>
+      <code>const person = { name: "Alice", age: 25 };</code>
+      <p>They are used to model real-world entities.</p>
+      <p>Access values using dot or bracket notation.</p>
+      <code>console.log(person.name);</code>
+    </section>
+  </main>
